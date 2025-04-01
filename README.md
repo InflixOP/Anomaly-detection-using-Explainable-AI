@@ -1,5 +1,8 @@
 # Integrating Explainable AI Techniques for Anomaly Detection in Encrypted Traffic
 
+## 🎓 Course Project  
+This project was developed as part of the **Course Project** at **Vellore Institute of Technology**. The aim was to integrate **Machine Learning** and **Explainable AI (SHAP)** techniques to detect anomalies in encrypted network traffic. 
+
 ## Introduction
 
 In today's interconnected world, network security has become a critical concern. With the rise of encrypted network traffic, traditional monitoring and detection techniques often fall short in identifying potential threats. Encrypted traffic conceals the content of data packets, making it challenging to detect malicious activity. This project focuses on leveraging Explainable AI (XAI) techniques for anomaly detection in encrypted network traffic. By applying machine learning algorithms and using SHAP (SHapley Additive exPlanations) to interpret the models, we can uncover patterns that lead to accurate anomaly detection. The goal is to enhance cybersecurity by providing transparent, interpretable insights into how predictions are made.
