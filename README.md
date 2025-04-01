@@ -1,7 +1,7 @@
 # Integrating Explainable AI Techniques for Anomaly Detection in Encrypted Traffic
 
 ## 🎓 Course Project  
-This project was developed as part of the **Course Project** at **Vellore Institute of Technology**. The aim was to integrate **Machine Learning** and **Explainable AI (SHAP)** techniques to detect anomalies in encrypted network traffic. 
+This project was developed as part of the **Course Project** at **Vellore Institute of Technology** guided by [Aswani Kumar Cherukuri Sir](https://github.com/cherukuri5). The aim was to integrate **Machine Learning** and **Explainable AI (SHAP)** techniques to detect anomalies in encrypted network traffic. 
 
 ## Introduction
 
@@ -14,14 +14,34 @@ Explainable AI is especially vital in network security, as it provides visibilit
 ## Machine Learning Algorithms Used
 
 ### 1. XGBoost (Extreme Gradient Boosting)
-XGBoost is a powerful gradient boosting algorithm known for its efficiency and accuracy. It employs parallel processing, tree pruning, and regularization techniques to minimize overfitting. Its robust performance makes it ideal for large datasets, and it is often the preferred choice for competitive machine learning challenges. In this project, XGBoost is applied to detect anomalies in encrypted traffic, providing reliable predictions. XGBoost achieved an accuracy of **90%** on our dataset.
+XGBoost is a powerful gradient boosting algorithm known for its efficiency and accuracy. It employs parallel processing, tree pruning, and regularization techniques to minimize overfitting. Its robust performance makes it ideal for large datasets, and it is often the preferred choice for competitive machine learning challenges. In this project, XGBoost is applied to detect anomalies in encrypted traffic, providing reliable predictions. 
+
+**Accuracy:** **90%**
 
 ### 2. Random Forest
-Random Forest is an ensemble learning technique that builds multiple decision trees and aggregates their results for improved accuracy. Each tree is trained on a random subset of the dataset using bagging, reducing variance and preventing overfitting. In network anomaly detection, Random Forest is effective due to its resilience to noisy data and its ability to handle complex patterns. Random Forest achieved an accuracy of **91.5%**.
+Random Forest is an ensemble learning technique that builds multiple decision trees and aggregates their results for improved accuracy. Each tree is trained on a random subset of the dataset using bagging, reducing variance and preventing overfitting. In network anomaly detection, Random Forest is effective due to its resilience to noisy data and its ability to handle complex patterns.
+
+**Accuracy:** **91.5%**
 
 ### 3. Gradient Boosting
-Gradient Boosting is another powerful ensemble method that builds models sequentially, with each tree minimizing the errors of the previous ones. Unlike Random Forest, which trains trees independently, Gradient Boosting corrects mistakes over iterations, making it a more accurate yet computationally intensive technique. It is well-suited for identifying subtle anomalies in encrypted traffic data. Gradient Boosting achieved an accuracy of **90.5%**.
+Gradient Boosting is another powerful ensemble method that builds models sequentially, with each tree minimizing the errors of the previous ones. Unlike Random Forest, which trains trees independently, Gradient Boosting corrects mistakes over iterations, making it a more accurate yet computationally intensive technique. It is well-suited for identifying subtle anomalies in encrypted traffic data. 
 
+**Accuracy:** **90.5%**
+
+### 4. Support Vector Machine (SVM)
+Support Vector Machine (SVM) is a supervised learning algorithm that finds an optimal hyperplane to separate different classes. It is particularly effective in high-dimensional spaces and works well for both linear and non-linear classification problems. In anomaly detection, SVM helps distinguish normal traffic from potential threats by maximizing the margin between classes.
+
+**Accuracy:** **99.4%**
+
+### 5. Logistic Regression
+Logistic Regression is a simple yet effective statistical model used for binary classification problems. It applies the logistic function to model the probability of an event occurring. While not as complex as ensemble models, logistic regression serves as a strong baseline for anomaly detection in network traffic.
+
+**Accuracy:** **98.4%**
+
+### 6. Perceptron
+The Perceptron is a fundamental neural network model that serves as a building block for more advanced deep learning architectures. It learns a linear decision boundary by adjusting its weights based on misclassified examples. Though limited in handling complex, non-linear relationships, it provides insights into basic pattern recognition in network traffic.
+
+**Accuracy:** **92%**
 ---
 
 ## Explainable AI and SHAP
