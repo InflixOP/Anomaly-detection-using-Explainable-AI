@@ -42,6 +42,7 @@ Logistic Regression is a simple yet effective statistical model used for binary 
 The Perceptron is a fundamental neural network model that serves as a building block for more advanced deep learning architectures. It learns a linear decision boundary by adjusting its weights based on misclassified examples. Though limited in handling complex, non-linear relationships, it provides insights into basic pattern recognition in network traffic.
 
 **Accuracy:** **92%**
+
 ---
 
 ## Explainable AI and SHAP
